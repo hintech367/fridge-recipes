@@ -1,11 +1,11 @@
-import './App.css';
-import RecipesList from './components/RecipesList';
+import "./App.css";
+import PantryEditor from "./components/PantryEditor";
 
 function App() {
   return (
     <div className="App">
-
-      <main style={{ padding: '20px' }}>
+      <main style={{ padding: "20px" }}>
+        <PantryEditor />
       </main>
     </div>
   );
